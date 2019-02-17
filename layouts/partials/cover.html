@@ -1,0 +1,13 @@
+{{ with .Resources.GetMatch "cover" }}
+<section class="cover">
+	{{ $bigCover := .Fill "1920x400 Center q95" }}
+	{{ $mediumCover := .Fill "1400x400 Center q95" }}
+	{{ $smallCover := .Fill "800x200 Center q95" }}
+
+	<picture>
+		<source srcset="{{ $bigCover.Permalink }}" media="(min-width: 1400px)">
+		<source srcset="{{ $mediumCover.Permalink }}" media="(min-width: 800px)">
+		<img srcset="{{ $smallCover.Permalink }}">
+	</picture>
+</section>
+{{ end }}

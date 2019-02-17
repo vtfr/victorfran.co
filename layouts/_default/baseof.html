@@ -1,0 +1,14 @@
+<html>
+	{{- partial "head.html" . -}}
+	<body>
+		{{- partialCached "nav.html" . -}}
+		<section class="wrapper">
+		{{ block "main" . }}
+			<article class="content">
+				<h1>{{ .Title }}</h1>
+				{{ .Content }}
+			</article>
+		{{ end }}
+		</section>
+	</body>
+</html>

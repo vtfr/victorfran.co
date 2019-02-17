@@ -1,0 +1,22 @@
+@import "consts.scss";
+@import "fonts.scss";
+@import "reset.scss";
+@import "hero.scss";
+@import "responsive.scss";
+@import "nav.scss";
+@import "cover.scss";
+
+body {
+  margin: 0;
+  background: $background-color;
+  font-family: $content-font;
+}
+
+.wrapper {
+  width: 100%;
+  max-width: $max-content-width;
+  margin: auto;
+  margin-top: $navbar-height;
+  box-sizing: border-box;
+  padding: 0 1.5rem;
+}

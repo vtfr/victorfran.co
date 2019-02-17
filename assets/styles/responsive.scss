@@ -1,0 +1,37 @@
+$site-width-lg: 1499px;
+$site-width-md: 991px;
+$site-width-sm: 480px;
+
+@mixin breakpoint($class) {
+  @if $class == sm {
+    @media (min-width: $site-width-sm) {
+      @content;
+    }
+  } @else if $class == md {
+    @media (min-width: $site-width-md) {
+      @content;
+    }
+  } @else if $class == lg {
+    @media (min-width: $site-width-lg) {
+      @content;
+    }
+  } @else {
+    @warn "Invalid breakpoint. Allowed breakpoints: xs, sm, md, lg, xl";
+  }
+}
+
+@mixin property-breakpoint($property, $font-sm, $font-md, $font-lg) {
+  @include breakpoint(sm) {
+    #{$property}: $font-sm;
+  }
+  @include breakpoint(md) {
+    #{$property}: $font-md;
+  }
+  @include breakpoint(lg) {
+    #{$property}: $font-lg;
+  }
+}
+
+@mixin default-font-breakpoint {
+  @include property-breakpoint(font-size, 100%, 125%, 150%);
+}

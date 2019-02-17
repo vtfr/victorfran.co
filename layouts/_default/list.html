@@ -1,0 +1,16 @@
+{{ define "main" }}
+	<section class="content-wrapper">
+		<article class="content">
+			<h1>{{ .Title }}</h1>
+			{{ .Content }}
+
+			<ul class="content-list">
+			{{ range .Pages }}
+				<li>
+					{{ .Render "li" }}
+				</li>
+			{{ end }}
+			</ul>
+		</article>
+	</section>
+{{ end }}

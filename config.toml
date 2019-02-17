@@ -1,0 +1,18 @@
+baseURL = "https://victorfran.co/"
+languageCode = "en"
+title = "vtfr"
+
+[menu]
+	[[menu.main]]
+		name = "blog"
+		pre = "<i class='fa fa-heart'></i>"
+		url = "/blog/"
+		weight = -110
+	[[menu.main]]
+		name = "contact"
+		url = "/contact/"
+		weight = -100
+	[[menu.main]]
+ 		name = "en"
+		url = "/en/"
+		weight = -100

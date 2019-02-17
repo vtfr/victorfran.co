@@ -1,0 +1,38 @@
+// @import "responsive.scss";
+//
+// .cover {
+//     position: relative;
+//
+//
+// 	@include responsive(mobile) {
+// 		height: 200px;
+// 		margin-bottom: -4rem;
+// 	}
+//
+// 	@include responsive(desktop) {
+// 		height: 400px;
+// 		margin-bottom: -8rem;
+// 	}
+//
+// 	img {
+// 		position: absolute;
+// 		object-fit: cover;
+// 		width: 100%;
+// 		height: 100%;
+// 		pointer-events: none;
+// 	}
+//
+// 	.credits {
+// 		position: absolute;
+// 		border-bottom-left-radius: 0.25rem;
+// 		opacity: 0.5;
+// 		right: 0;
+// 		padding: 0.8rem 1rem;
+// 		font-size: 0.8rem;
+// 		background: #fff;
+// 		top: 0;
+//
+// 		text-decoration: none;
+// 		color: #444;
+// 	}
+// }
