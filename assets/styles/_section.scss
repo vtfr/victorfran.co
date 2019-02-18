@@ -1,0 +1,21 @@
+@import "consts";
+
+.section {
+  .section-header {
+    display: inline-block;
+    min-width: 100%;
+
+    h1 {
+      margin: 48px 0;
+      font-size: 3rem;
+      font-weight: 300;
+      color: $header-color;
+      text-align: center;
+    }
+  }
+}
+
+.hero {
+  max-width: $site-width-tablet;
+  margin: 0 auto;
+}

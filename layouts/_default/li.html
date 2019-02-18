@@ -1,8 +1,20 @@
-<article class="content-item">
-	<h2>
-		<a href="{{ .Permalink }}">{{ .Title }}</a>
-	</h2>
-
-	<p>{{ .Description }}</p>
-	<p class="date">{{ .Date.Format "2006-01-02" }}</p>
+<article class="content">
+  <header class="content-header">
+    <h1>
+      <a href="{{ .URL }}">{{ .Title }}</a>
+    </h1>
+    <aside>
+      <time datetime="{{ .Date.Format `2006-01-02` }}">
+        {{ .Date.Format "Mon, 2 Jan 2006" }}
+      </time>
+      {{ with (.Params.tags) }}
+      <div class="tags">
+        {{ range . }}
+        <a href="{{ (print `/tags/` . `/`) | absURL }}"># {{ . }}</a>
+        {{- end -}}
+      </div>
+      {{ end }}
+    </aside>
+  </header>
+  <p>{{ .Summary }}</p>
 </article>

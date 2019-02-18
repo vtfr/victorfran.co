@@ -1,0 +1,29 @@
+@import "responsive";
+
+.hero {
+  header {
+    display: inline-block;
+    min-width: 100%;
+  }
+
+  .contact {
+    display: flex;
+    justify-content: space-evenly;
+
+    a {
+      img {
+        user-select: none;
+        -moz-user-select: none;
+        -webkit-user-select: none;
+      }
+
+      display: block;
+      float: left;
+      width: 2.5em;
+
+      &:last-child {
+        margin-right: 0;
+      }
+    }
+  }
+}

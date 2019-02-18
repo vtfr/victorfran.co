@@ -8,11 +8,16 @@ title = "vtfr"
 		pre = "<i class='fa fa-heart'></i>"
 		url = "/blog/"
 		weight = -110
-	[[menu.main]]
-		name = "contact"
-		url = "/contact/"
-		weight = -100
-	[[menu.main]]
- 		name = "en"
-		url = "/en/"
-		weight = -100
+
+	[[menu.contact]]
+		name = "Github"
+		pre = "github.svg"
+		url = "https://github.com/vtfr/"
+	[[menu.contact]]
+		name = "LinkedIn"
+		pre = "linkedin.svg"
+		url = "https://www.linkedin.com/in/victorfrvl/"
+	[[menu.contact]]
+		name = "Twitter"
+		pre = "twitter.svg"
+		url = "https://twitter.com/francomermo/"
