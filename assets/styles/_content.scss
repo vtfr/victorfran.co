@@ -119,8 +119,7 @@
     font-size: 1.2rem;
   }
 
-  // Extend header
-  .content-header,
+  // Extend code
   pre {
     @include breakpoint("desktop") {
       margin-left: -50px;
