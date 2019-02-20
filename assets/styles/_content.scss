@@ -32,7 +32,7 @@
     margin: $header-margin 0;
     color: $header-color;
     font-weight: 700;
-    
+
     @include remove-link-style();
   }
 
@@ -59,6 +59,14 @@
     padding: 16px 24px;
     border-radius: 8px;
     color: $code-color;
+  }
+
+  em {
+    font-style: italic;
+  }
+
+  strong {
+    font-weight: bold;
   }
 
   p {

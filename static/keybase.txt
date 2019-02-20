@@ -1,0 +1,68 @@
+==================================================================
+https://keybase.io/vtfr
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://victorfran.co
+  * I am vtfr (https://keybase.io/vtfr) on keybase.
+  * I have a public key with fingerprint 51FF 9F0A 216F 4CA9 1B1B  4377 7C33 6BB6 D8C9 AFD1
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "01017c1e19c70e5298788b2c097a276433469be568db0dcdd08679db75f2cc9e1bbc0a",
+      "fingerprint": "51ff9f0a216f4ca91b1b43777c336bb6d8c9afd1",
+      "host": "keybase.io",
+      "key_id": "7c336bb6d8c9afd1",
+      "kid": "01017c1e19c70e5298788b2c097a276433469be568db0dcdd08679db75f2cc9e1bbc0a",
+      "uid": "f8e5af9f35ffa7c8e67c2bc0872d8219",
+      "username": "vtfr"
+    },
+    "service": {
+      "hostname": "victorfran.co",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "ctime": 1544340409,
+  "expire_in": 157680000,
+  "prev": "88eb0b24ec98c6e6851416f13b4f9abf4e86264f1fa26d8cfcbbd6b32ad8a4b9",
+  "seqno": 17,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.80
+Comment: https://keybase.io/crypto
+
+yMImAnicrVJbSBVRFL3Xbg/Fwh6SBQUOaS+JOfM8cyui6CFBgUQ/Yd7OU6drd64z
+47Uyy1thRGREGBmhCREF0ftBmmBWVlRgUVF99BEGPTDKCgoTOiP112fn53D2Xmvt
+tffZt8eOCGWFt6nxqy/un3scfnCzqTpUmn3req2EHbpFitZKcTZ8sUrKPD8Wt6kU
+lWQgA5MABixiykxXLGhCiBUiWyZSTENTVc2wMNMNSLFMCaUyNEyLYlPnCiEWAxgT
+GUlFErcT5cxNunbCF7I64NziMlKAwTWCLIAB1lTTNImqGhgbFBILcQoEscLxAoYw
+h5HH5tmOiIlHbNjeP/D/2Xf1sByHTEfCsapzjkwCmWESRSCgqVCoACsAesxNoE1M
+oFM+d6W6IklEUjZhwVCDLv5mbeI7LndRYh4Jmkm6ju8Qp1KkKnw/6UUDqr8lGWBr
+GI79UYlhO0HFEAUjxVzPdhJSFAgk8e1AFuiapmqyJltFEtuctF0WswOEbhpQFieo
+w1JCEkKGZaxojFiQGMyAOtDELwAVa9xCmGsMGoqhccCREsyVE4ypgVUFUYg0HLTq
+saqEI7RN4ROVC03PLk8gv9plUl13V2kkFM4KjRqZEWxXKCsz5+/O/dg2JnSopL/v
+zIPOh4vTJ0vPn+/d/mtpMbXqLx6E9el9EwtzKy59vdzqLV2/90b+vZdy9uCz1v1g
+ZVtfe/Mp5fmHyIFZG/nioZpxH8/2pn42ZB+5WlC5o6P5dLw990Jz1af6SOcK71uE
+ts/p2b3s7IiyvOM5+b27cpq68lfU9i9YNPXVfLQ/R31UMOVt2bVFN85Mf5d+s644
+3DBEzj2Ntz0zR6+la+uONeadWHK3Z8/490rPugg9MD1v2cI7uRmTMsqm3W+RN63p
+LPn8pfhwVfPx5a9bJuy8sqYjfS+7cHXj9yf9jx7O3X60e3K0pm/G6g3vB6svp72D
+btuqmU0DjbNHbo1VhTsGGl5mvv0N7sNDDg==
+=Ennc
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/vtfr
+
+==================================================================
