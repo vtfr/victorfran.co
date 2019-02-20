@@ -8,7 +8,7 @@ tags: ["hugo", "meta"]
 
 After many years without a blog, I finally decided to bring back that old habit of
 mine. I first started blogging almost a decade ago, in 2010. I was 15, and like
-most of the [Gen Z](https://en.wikipedia.org/wiki/Generation_Z), I was born connected.
+most of the Millenials, I was born connected.
 It was [blogger](https://www.blogger.com/about/)'s golden years. Eveyone I knew had a
 blog back then. This was how we expressed ourselves in this new world called
 Internet. My passion for computers began there, when I was choosing a blogger
